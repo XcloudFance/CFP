@@ -2,12 +2,14 @@
 Official Implementation for Cross Feature Pyramid
 
 # Abstract
+- CenterNet BackBone Encoder + CFP Decoder
+  - Parallel Outputs: **Segementation & Detection**
 - **Gaussian Attention**
 - **Cross Feature Pyramid Block**
   - **Self Attention + Feature Cross Attention**
   - **Upsampling by ViT & Transpose Conv**
 
-- Not only Centernet Encoder, Good Performance in other cross-feature pyramid network: Unet – Segmentation, UPerNet – Segmentation&Classification
+- Not only Centernet Encoder, Good Performance **in other cross-feature pyramid network**: Unet – Segmentation, UPerNet – Segmentation&Classification
 - Could be parallel Encoder to transfer into one Decoder for learning – Using CFPB as well
 
 
